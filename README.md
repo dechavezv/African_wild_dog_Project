@@ -1,4 +1,4 @@
-### This repository describes all the steps necesary to do Positive selection analysis and extract MSA of 25kb in length.
+### This repository describes all the steps necesary to do genome-wide Positive selection analysis of the African wild dog and extract 25-kb aligments from multiple canid genomes.
 
 ## 1. Get variants from raw reads 
 ### All scripts necesary for this step can be found within Get_VCF_from_Reads/
