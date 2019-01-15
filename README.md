@@ -1,7 +1,7 @@
 ### This repository describes all the steps necesary to do Positive selection analysis and extract MSA of 25kb in length.
 
 ## 1. Get variants from raw reads 
-### All scripts necesary for this step can be found within From_fastaq_to_VCF/
+### All scripts necesary for this step can be found within Get_VCF_from_Reads/
 `bash from_fastaq_to_VCF.sh`
 
 ## 1. Identify selective sweeps
@@ -13,7 +13,7 @@
 `bash Positive_selection.sh`
 
 ## 3. Get 25kb-alignments
-### All scripts necesary for this step can be found within 25kb_alignments_for_Phylogeny/
+### All scripts necesary for this step can be found within 25KB_windows/
 ### This script will get aligments and best partitions that are necesary for RAXML, ASTRAL and divergence times analysis.
 `bash Get_25kb.sh'
 
