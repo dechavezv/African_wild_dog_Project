@@ -18,7 +18,7 @@
 ## 3. Get 25kb-alignments
 ### This step will get alignments and best partitions that are necesary for RAXML, ASTRAL and divergence times analysis.
 ### All scripts necesary for this step can be found within 25KB_windows/
-`bash Get_25kb.sh'
+`bash Get_25kb.sh`
 
 ## 4. Get 1kb-alignments
 ### This step will get alignments that are necesary for the demographic model with G-phocs
