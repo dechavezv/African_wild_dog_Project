@@ -23,4 +23,4 @@
 ## 4. Get 1kb-alignments
 ### This step will get alignments that are necesary for the demographic model with G-phocs
 ### All scripts necesary for this step can be found within 1kb_alignments_Gphocs/
-`Get_1kb_neutral_loci.sh`
+`bash Get_1kb_neutral_loci.sh`
