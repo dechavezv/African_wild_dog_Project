@@ -76,21 +76,7 @@ def snp_cal(chromo,window_start,window_end):
 			#if '.' not in GT.split(':')[0] and '0/0' not in GT.split(':')[0]: print(GT)
 			if '.' not in GT.split(':')[0] and '0/0' not in GT.split(':')[0]: calls[i]+=1			
 			#if GT.split(':')[0]=='0/1': hets[i]+=1
-			#if calls>8: outVCF.write('%s\t%s\t%s\n' % ('\t'.join(line[0:6]), 'FAIL_missing', '\t'.join(line[7:])) ); continue
-			
-		if sites_poly>0:
-			ALL.append(int(1))
-		else:
-			ALL.append(int(0))
-
-
-		if sites_WithInfo>8:
-                        # print(line)
-                        Info_sites.append(int(1))
-                else:
-                     	Info_sites.append(int(0))	
-	Poly=numpy.sum(ALL)
-	Info_sites=numpy.sum(Info_sites)
+			if calls>8: outVCF.write('%s\t%s\t%s\n' % ('\t'.join(line[0:6]), 'FAIL_missing', '\t'.join(line[7:])) ); continue
  	print('%s\t%s\t%s\t%s\t%s\t%s\t%s' % (chromo,window_start,sites_present,sites_visited,'\t'.join(map(str,calls)),str(Poly),str(Info_sites)))
 	
 
